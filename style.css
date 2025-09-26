@@ -1,3 +1,37 @@
+/* Attendee list styles */
+.attendee-list-section {
+  margin-top: 2em;
+  background: #f8fafd;
+  border-radius: 8px;
+  padding: 1em 1.5em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.attendee-list-section h3 {
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+  color: #0071c5;
+}
+.attendee-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.attendee-list li {
+  padding: 0.5em 0.7em;
+  border-bottom: 1px solid #e0e7ef;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+}
+.attendee-list li:last-child {
+  border-bottom: none;
+}
+.attendee-list .attendee-team {
+  font-weight: bold;
+  color: #0071c5;
+  font-size: 0.97em;
+}
 /* Modern reset */
 * {
   margin: 0;
